@@ -14,6 +14,10 @@
 		2CCF388F298ABBA2002543CC /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF388E298ABBA2002543CC /* TableView.swift */; };
 		2CCF3891298ABBB5002543CC /* ModelCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF3890298ABBB5002543CC /* ModelCells.swift */; };
 		2CCF3893298ABC62002543CC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF3892298ABC62002543CC /* Model.swift */; };
+		2CCF3895298ABCED002543CC /* TopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF3894298ABCED002543CC /* TopTableViewCell.swift */; };
+		2CCF3897298ABD26002543CC /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF3896298ABD26002543CC /* SettingsTableViewCell.swift */; };
+		2CCF3899298ABD53002543CC /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF3898298ABD53002543CC /* SwitchTableViewCell.swift */; };
+		2CCF389B298ABD7C002543CC /* BadgeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF389A298ABD7C002543CC /* BadgeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		2CCF388E298ABBA2002543CC /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		2CCF3890298ABBB5002543CC /* ModelCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCells.swift; sourceTree = "<group>"; };
 		2CCF3892298ABC62002543CC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2CCF3894298ABCED002543CC /* TopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTableViewCell.swift; sourceTree = "<group>"; };
+		2CCF3896298ABD26002543CC /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		2CCF3898298ABD53002543CC /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		2CCF389A298ABD7C002543CC /* BadgeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,10 @@
 			isa = PBXGroup;
 			children = (
 				2CCF388E298ABBA2002543CC /* TableView.swift */,
+				2CCF3894298ABCED002543CC /* TopTableViewCell.swift */,
+				2CCF3896298ABD26002543CC /* SettingsTableViewCell.swift */,
+				2CCF3898298ABD53002543CC /* SwitchTableViewCell.swift */,
+				2CCF389A298ABD7C002543CC /* BadgeTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -197,10 +209,14 @@
 			files = (
 				2CCF3871298AB813002543CC /* AppDelegate.swift in Sources */,
 				2CCF388F298ABBA2002543CC /* TableView.swift in Sources */,
+				2CCF3897298ABD26002543CC /* SettingsTableViewCell.swift in Sources */,
 				2CCF3873298AB813002543CC /* SceneDelegate.swift in Sources */,
+				2CCF389B298ABD7C002543CC /* BadgeTableViewCell.swift in Sources */,
 				2CCF3893298ABC62002543CC /* Model.swift in Sources */,
+				2CCF3899298ABD53002543CC /* SwitchTableViewCell.swift in Sources */,
 				2CCF388D298ABB8A002543CC /* SettingsViewController.swift in Sources */,
 				2CCF3891298ABBB5002543CC /* ModelCells.swift in Sources */,
+				2CCF3895298ABCED002543CC /* TopTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
