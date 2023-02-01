@@ -13,6 +13,7 @@
 		2CCF388D298ABB8A002543CC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF388C298ABB8A002543CC /* SettingsViewController.swift */; };
 		2CCF388F298ABBA2002543CC /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF388E298ABBA2002543CC /* TableView.swift */; };
 		2CCF3891298ABBB5002543CC /* ModelCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF3890298ABBB5002543CC /* ModelCells.swift */; };
+		2CCF3893298ABC62002543CC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF3892298ABC62002543CC /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2CCF388C298ABB8A002543CC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		2CCF388E298ABBA2002543CC /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		2CCF3890298ABBB5002543CC /* ModelCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCells.swift; sourceTree = "<group>"; };
+		2CCF3892298ABC62002543CC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				2CCF3890298ABBB5002543CC /* ModelCells.swift */,
+				2CCF3892298ABC62002543CC /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				2CCF3871298AB813002543CC /* AppDelegate.swift in Sources */,
 				2CCF388F298ABBA2002543CC /* TableView.swift in Sources */,
 				2CCF3873298AB813002543CC /* SceneDelegate.swift in Sources */,
+				2CCF3893298ABC62002543CC /* Model.swift in Sources */,
 				2CCF388D298ABB8A002543CC /* SettingsViewController.swift in Sources */,
 				2CCF3891298ABBB5002543CC /* ModelCells.swift in Sources */,
 			);
