@@ -9,7 +9,7 @@ import UIKit
 
 class TopTableViewCell: UITableViewCell {
     
-    static let identifier = "TopTableViewCell"
+    static let identifier = String(describing: TopTableViewCell.self)
     
     private let iconImageView: UIImageView = {
         let imageView = UIImageView()

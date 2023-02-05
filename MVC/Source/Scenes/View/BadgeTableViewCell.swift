@@ -9,7 +9,7 @@ import UIKit
 
 class BadgeTableViewCell: UITableViewCell {
     
-    static let identifier = "BadgeTableViewCell"
+    static let identifier = String(describing: BadgeTableViewCell.self)
 
     private let iconContainer: UIView = {
         let view = UIView()
@@ -68,9 +68,9 @@ class BadgeTableViewCell: UITableViewCell {
         let size: CGFloat = contentView.frame.size.height - 12
         iconContainer.frame = CGRect(x: 15, y: 6, width: size, height: size)
         
-        let imageSize: CGFloat = size/1.5
-        iconImageView.frame = CGRect(x: (size-imageSize)/2,
-                                     y: (size-imageSize)/2,
+        let imageSize: CGFloat = size / 1.5
+        iconImageView.frame = CGRect(x: (size-imageSize) / 2,
+                                     y: (size-imageSize) / 2,
                                      width: imageSize,
                                      height: imageSize)
         

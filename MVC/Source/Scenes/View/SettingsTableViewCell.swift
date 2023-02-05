@@ -9,7 +9,7 @@ import UIKit
 
 class SettingsTableViewCell: UITableViewCell {
     
-    static let identifier = "SettingsTableViewCell"
+    static let identifier = String(describing: SettingsTableViewCell.self)
 
     private let iconContainer: UIView = {
         let view = UIView()
@@ -65,9 +65,9 @@ class SettingsTableViewCell: UITableViewCell {
         let size: CGFloat = contentView.frame.size.height - 12
         iconContainer.frame = CGRect(x: 15, y: 6, width: size, height: size)
         
-        let imageSize: CGFloat = size/1.5
-        iconImageView.frame = CGRect(x: (size-imageSize)/2,
-                                     y: (size-imageSize)/2,
+        let imageSize: CGFloat = size / 1.5
+        iconImageView.frame = CGRect(x: (size-imageSize) / 2,
+                                     y: (size-imageSize) / 2,
                                      width: imageSize,
                                      height: imageSize)
         
